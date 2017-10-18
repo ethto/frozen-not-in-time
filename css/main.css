@@ -19,7 +19,7 @@ p {
   color: #c09;
   border: 2px solid #990073;
   border-radius: 2px;
-  transform: translateY(4em) translateX(1em);
+  transform: translateY(3em) translateX(1em);
 }
 
 .images {
@@ -28,7 +28,7 @@ p {
 
 .cone {
   position: absolute;
-  bottom: -13em;
+  bottom: -12em;
   left: 5em;
   z-index: 1000;
   transform: scale(0.75);
@@ -36,7 +36,7 @@ p {
 
 .mint-chip {
   position: absolute;
-  bottom: -7em;
+  bottom: -6em;
   left: 5em;
   transform: scale(0.75);
 }
@@ -50,14 +50,14 @@ p {
 
 .vanilla-fudge {
   position: absolute;
-  bottom: 2em;
+  bottom: 1.5em;
   left: 5em;
   transform: scale(0.75);
 }
 
 .cherry {
   position: absolute;
-  bottom: 6em;
+  bottom: 5.5em;
   left: 5em;
   transform: scale(0.75);
 }
