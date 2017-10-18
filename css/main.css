@@ -28,31 +28,36 @@ p {
 
 .cone {
   position: absolute;
-  bottom: -20em;
+  bottom: -13em;
   left: 5em;
   z-index: 1000;
+  transform: scale(0.75);
 }
 
 .mint-chip {
   position: absolute;
-  bottom: -12em;
+  bottom: -7em;
   left: 5em;
+  transform: scale(0.75);
 }
 
 .chocolate-chip {
   position: absolute;
-  bottom: -6em;
-  left: 6em;
+  bottom: -2em;
+  left: 5.5em;
+  transform: scale(0.75);
 }
 
 .vanilla-fudge {
   position: absolute;
-  bottom: -1em;
+  bottom: 2em;
   left: 5em;
+  transform: scale(0.75);
 }
 
 .cherry {
   position: absolute;
-  bottom: 5em;
+  bottom: 6em;
   left: 5em;
+  transform: scale(0.75);
 }
