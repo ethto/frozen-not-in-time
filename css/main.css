@@ -3,8 +3,6 @@ html {
   background-image: repeating-linear-gradient(145deg, #c9fcff, #c9fcff 10px, #d4fdff 10px, #d4fdff 20px);
 }
 
-
-
 h1 {
   color: #990073;
   transform: rotate(-10deg) translateY(1em);
@@ -25,11 +23,36 @@ p {
 }
 
 .images {
-  position:relative;
+  position: relative;
 }
 
 .cone {
   position: absolute;
-  bottom: -15em;
+  bottom: -20em;
+  left: 5em;
+  z-index: 1000;
+}
+
+.mint-chip {
+  position: absolute;
+  bottom: -12em;
+  left: 5em;
+}
+
+.chocolate-chip {
+  position: absolute;
+  bottom: -6em;
+  left: 6em;
+}
+
+.vanilla-fudge {
+  position: absolute;
+  bottom: -1em;
+  left: 5em;
+}
+
+.cherry {
+  position: absolute;
+  bottom: 5em;
   left: 5em;
 }
