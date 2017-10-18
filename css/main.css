@@ -1,0 +1,35 @@
+html {
+  font-family: "Fredoka One", sans-serif;
+  background-image: repeating-linear-gradient(145deg, #c9fcff, #c9fcff 10px, #d4fdff 10px, #d4fdff 20px);
+}
+
+
+
+h1 {
+  color: #990073;
+  transform: rotate(-10deg) translateY(1em);
+}
+
+p {
+  color: #c09;
+  transform: rotate(-5deg) translateY(2.5em) translateX(.5em);
+  max-width: 19em;
+}
+
+.btn {
+  text-decoration: none;
+  color: #c09;
+  border: 2px solid #990073;
+  border-radius: 2px;
+  transform: translateY(4em) translateX(1em);
+}
+
+.images {
+  position:relative;
+}
+
+.cone {
+  position: absolute;
+  bottom: -15em;
+  left: 5em;
+}
