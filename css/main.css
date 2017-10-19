@@ -14,7 +14,7 @@ p {
   max-width: 19em;
 }
 
-.btn, .btn-ghost {
+.btn {
   text-decoration: none;
   color: #c09;
   border: 2px solid #990073;
@@ -22,9 +22,17 @@ p {
   transform: translateY(3em) translateX(1em);
 }
 
-.btn:hover, .btn-ghost:hover {
+.btn-ghost {
+  text-decoration: none;
+}
+
+.btn:hover {
   color: #c09;
   border-color: #990073;
+}
+
+.btn-ghost:hover {
+  text-decoration: none;
 }
 
 .images {
