@@ -34,7 +34,7 @@ p {
 .cone {
   position: absolute;
   bottom: -13em;
-  left: 5em;
+  left: 7em;
   z-index: 1000;
   transform: scale(.75);
   animation: cone .3s linear;
@@ -47,14 +47,14 @@ p {
   }
 
   100% {
-    transform: translateY();
+    transform: translateY(0);
   }
 }
 
 .mint-chip {
   position: absolute;
   bottom: -7em;
-  left: 5em;
+  left: 7em;
   transform: scale(.75);
   animation: mint .3s .3s linear backwards;
 }
@@ -66,14 +66,14 @@ p {
   }
 
   100% {
-    transform: translateY();
+    transform: translateY(0);
   }
 }
 
 .chocolate-chip {
   position: absolute;
   bottom: -3em;
-  left: 5.5em;
+  left: 7.5em;
   transform: scale(.75);
   animation: choc .3s .6s linear backwards;
 }
@@ -85,14 +85,14 @@ p {
   }
 
   100% {
-    transform: translateY();
+    transform: translateY(0);
   }
 }
 
 .vanilla-fudge {
   position: absolute;
   bottom: 1em;
-  left: 5em;
+  left: 7em;
   transform: scale(.75);
   animation: fudj .3s .9s linear backwards;
 }
@@ -104,14 +104,14 @@ p {
   }
 
   100% {
-    transform: translateY();
+    transform: translateY(0);
   }
 }
 
 .cherry {
   position: absolute;
   bottom: 5.5em;
-  left: 5em;
+  left: 7em;
   transform: scale(.75);
   animation: cherry .3s 1.5s linear backwards;
 }
@@ -123,11 +123,12 @@ p {
   }
 
   100% {
-    transform: translateY();
+    transform: translateY(0);
   }
 }
 
 .text {
+  text-shadow;
   animation: words .3s 1.5s linear backwards;
 }
 
@@ -135,6 +136,7 @@ p {
 
   0% {
     opacity: 0;
+    filter: blur(7px);
   }
 
   100% {
