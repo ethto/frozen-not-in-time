@@ -128,7 +128,7 @@ p {
 }
 
 .text {
-  text-shadow;
+  text-shadow: 2px 2px #b3fbff;
   animation: words .3s 1.5s linear backwards;
 }
 
